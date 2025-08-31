@@ -5,4 +5,6 @@
 
 🟡 decoder-layers-num : 12
 
-🟩 __bart_models  :  encoder_stack ➡️ cross_attention ➡️ decoder_stack__
+🟩 __bart_models__  :  __encoder_stack__ (Bidirectional / دوطرفه )  ➡️ __decoder_stack__ (  Autoregressive / خودبازگشتی ) 
+
+ 
