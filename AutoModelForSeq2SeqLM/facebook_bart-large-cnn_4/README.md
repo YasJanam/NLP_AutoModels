@@ -1,4 +1,18 @@
-# facebook/bart-large-cnn
+## Files 
+#### 🟥 File 1 : General_INFO
+اطلاعات کلی مدل facebook/bart-large-cnn
+#### 🟩 File 2 : Layers_List
+لیست لایه های مدل facebook/bart-large-cnn به همراه اجزای آنها
+#### 🟨 File 3 : Encoder_Layers
+ساختار استک انکودر و لایه های آن
+#### 🟪 File 4 : Decoder_Layers
+ساختار استک دیکودر و لایه های آن
+#### 🟦 File 5 : Structure_Details
+ساختار کل مدل facebook/bart-large-cnn به همراه اجزای آن
+#### 🟧 File 6 : facebook_bart_large_cnn
+فایل کل کد + نمودار مدل و لیست لایه ها با جزییات بیشتر
+
+## facebook/bart-large-cnn
 🔵 model-type : __bart__ (encoder-decoder)
 
 🔴 encoder-layers-num : 12 
