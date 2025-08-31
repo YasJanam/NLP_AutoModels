@@ -12,7 +12,7 @@
 ### Folder 2 : Translation_2
 فاین تیون یک مدل ترجه انگلیسی به فرانسوی
 ##### 🟢 model : "Helsinki-NLP/opus-mt-en-fr" ( مدلی برای ترجمه انگلیسی به فرانسوی : MarianMT یک مدل )
-##### 🟢 Dataset : "wmt14" ( "fr-en" )
+###### 🟢 Dataset : "wmt14" ( "fr-en" )
 
 ---
 ### Folder 1 : Summarization_1 
