@@ -3,13 +3,15 @@
 اطلاعات کلی مدل facebook/bart-large-cnn
 #### 🟨 File 2 : Layers_List
 لیست لایه های مدل facebook/bart-large-cnn به همراه اجزای آنها
-#### 🟨 File 3 : Encoder_Layers
+#### 🟨 File 3 : Summarize_Layers_list 
+خلاصه ای از لایه های مدل 
+#### 🟨 File 4 : Encoder_Layers
 ساختار استک انکودر و لایه های آن
-#### 🟨 File 4 : Decoder_Layers
+#### 🟨 File 5 : Decoder_Layers
 ساختار استک دیکودر و لایه های آن
-#### 🟨 File 5 : Structure_Details
+#### 🟨 File 6 : Structure_Details
 ساختار کل مدل facebook/bart-large-cnn به همراه اجزای آن
-#### 🟨 File 6 : facebook_bart_large_cnn
+#### 🟨 File 7 : facebook_bart_large_cnn
 فایل کل کد + نمودار مدل و لیست لایه ها با جزییات بیشتر
 
 ## facebook/bart-large-cnn
