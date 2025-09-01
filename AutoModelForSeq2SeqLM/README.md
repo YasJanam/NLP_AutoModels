@@ -1,6 +1,10 @@
 # AutoModelForSeq2SeqLM
 ## Folders
 ---
+### Folder 5 : define_a_BART_model_5
+تعریف یک مدل بارت با ابزار های کتابخانه transformers و آموزش و ارزیابی مدل
+
+---
 ### Folder 4 : facebook_bart-large-cnn_4
 بررسی معماری و لایه های مدل facebook/bart-large-cnn
 
