@@ -60,3 +60,16 @@
   - mBART → نسخه چندزبانه BART
 
   - MarianMT → ترجمه ماشینی چندزبانه
+ 
+---
+
+### BART vs MarianMT vs T5 vs Pegasus
+
+|  Feature  | BART | MarianMT | T5 | Pegasus | 
+|:--------:|:--------:|:--------:|:--------:|:--------:|
+| Architecture | Transformer Seq2Seq ( denoising autoencoder ) | Transformer Seq2Seq ( encoder-decoder ) | Transformer Seq2Seq ( text-to-text ) | Transformer Seq2Seq ( summarization-focused ) |
+| main-application | multi-task : translation,summarization,text-generation,QA | Machine-Translation | all NLP text-to-text Tasks | abstractive summarization |
+| pretraining-Method | Denoising autoencoder (masking,shuffling,deletion) | only on translation data | span-masked denoising on C4 | Gap-Sentence Generation ( حذف جملات کلیدی ) |
+| انعطاف پذیری | بالا( کاربرد در بسیاری از وظایف متن به متن) | محدود به ترجمه | بسیار بالا | محدودتر،ولی فوق العاده قوی در خلاصه سازی |
+| مزیت اصلی | همه کاره، عملکرد خوب در چندین تسک |سبک و سریع برای ترجمه | یکپارچگی همه وظایف nlp در قالب متن به متن | بهترین عملکرد در خلاصه سازی |
+| معایب | نسبتا سنگین | فقط ترجمه،نه کارهای دیگه | بسیار بزرگ | تخصصی بودن |
