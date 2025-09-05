@@ -78,6 +78,8 @@
 
 ---
 ### denoising autoencoder 
+پیش آموزش مدل های بارت شامل موارد روبرو است : masking, shuffling, deletion
+
 این روش یک روش پیش آموزش است که در مدل های بارت استفاده میشود. برای مشاهده یک نمونه پیاده سازی این روش به لینک زیر بروید :
 https://github.com/YasJanam/NLP_MODELS_1/tree/main/Labratory_12
 
@@ -85,5 +87,8 @@ https://github.com/YasJanam/NLP_MODELS_1/tree/main/Labratory_12
 https://github.com/YasJanam/NLP_MODELS_1/tree/main/Pretrain_Methods_11
 
 ---
+### bart-model  : 
+برای مشاهده یک نمونه پیاده سازی شده مدل بارت به لینک زیر بروید.لابراتوری های بعدی مربوط به کد زیر اند:
+https://github.com/YasJanam/NLP_MODELS_1/tree/main/miniBART_sumarization_9
 
 
