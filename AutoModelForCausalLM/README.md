@@ -7,7 +7,7 @@ https://github.com/YasJanam/NLP_MODELS_1/tree/main/10_layer_nlp_model_3
 
 #### CausalLM-Models Architecture (معماری مدل های علی)
 
- مدل های علی با دیکودر ترانسفورمر ساخته میشوند
+ مدل های علی با دیکودر ترانسفورمر ساخته میشوند ( Decoder-Only )
 
  دیکودر ترانسفورمر شامل چندین لایه از بلاک های دیکودر است
 
