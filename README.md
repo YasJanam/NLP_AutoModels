@@ -10,7 +10,7 @@
 | **AutoModelForQuestionAnswering**      | 🔵 Encoder-Only (BERT-like)  |  درک متن   | Trainer        | پرسش‌پاسخ استخراجی (جواب از دل متن)                    | BERT, RoBERTa, DistilBERT, ALBERT                   |
 | **AutoModelForMaskedLM**               | 🔵 Encoder-Only (BERT-like)  |  درک متن   | Trainer        | زبان‌مدل‌سازی پوشیده (پرکردن جاهای خالی)               | BERT, RoBERTa, DistilBERT                           |
 | **AutoModelForCausalLM**               | 🔴 **Decoder-Only** (GPT-like)   |  **تولید متن** | Trainer        | تولید متن به سبک GPT (زبان‌مدل‌سازی علی)               | GPT-2, GPT-Neo, GPT-J, LLaMA, Falcon                |
-| **AutoModelForSeq2SeqLM**              | 🟢 **Encoder-Decoder** (Seq2Seq) | **بازنویسی متن**        | Seq2SeqTrainer | مدل‌های Encoder-Decoder (ترجمه، خلاصه‌سازی، تولید متن) | T5, BART, mBART, MarianMT, Pegasus                  |
+| **AutoModelForSeq2SeqLM**              | 🟢 **Encoder-Decoder** (Seq2Seq) | **بازنویسی متن**        | **Seq2SeqTrainer** | مدل‌های Encoder-Decoder (ترجمه، خلاصه‌سازی، تولید متن) | T5, BART, mBART, MarianMT, Pegasus                  |
 
 
 ---
