@@ -17,8 +17,8 @@
 
 | معماری                        | مثال‌ها                     | نگاه به متن                         | کاربرد اصلی                                     |
 | ----------------------------- | --------------------------- | ----------------------------------- | ----------------------------------------------- |
-| **Encoder-only**              | BERT, RoBERTa               | کل متن (دوطرفه، bidirectional)      | درک متن (classification, NER, QA extractive)    |
-| **Decoder-only (CausalLM)**   | GPT-2, GPT-3, LLaMA, Falcon | فقط گذشته (چپ به راست)              | تولید متن (text generation, completion)         |
-| **Encoder-Decoder (Seq2Seq)** | T5, BART, MarianMT, Pegasus | Encoder → کل متن   / Decoder → causal | بازنویسی متن (translation, summarization, etc.) |
+| 🔵 **Encoder-only**              | BERT, RoBERTa               | کل متن (دوطرفه، bidirectional)      | درک متن (classification, NER, QA extractive)    |
+| 🔴 **Decoder-only (CausalLM)**   | GPT-2, GPT-3, LLaMA, Falcon | فقط گذشته (چپ به راست)              | تولید متن (text generation, completion)         |
+| 🟢 **Encoder-Decoder (Seq2Seq)** | T5, BART, MarianMT, Pegasus | Encoder → کل متن   / Decoder → causal | بازنویسی متن (translation, summarization, etc.) |
 
 ---
