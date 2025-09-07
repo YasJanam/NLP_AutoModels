@@ -71,7 +71,7 @@ BERT-large: مدل 24 لایه ای
 | **MiniLM**     | کوچک                       | attention-efficient      | real-time apps |
 
 
-### نحوه استنفاده از مدل های MaskedLM برای تسک حدس زدن کلمات حذف شده
+### نحوه استفاده از مدل های MaskedLM برای تسک حدس زدن کلمات حذف شده
 
      tokenizer = AutoTokenizer.from_pretrained(model_name)
      model = AutoModelForMaskedLM.from_pretrained(model_name) 
