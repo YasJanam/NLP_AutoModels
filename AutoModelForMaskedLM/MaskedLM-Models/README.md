@@ -8,7 +8,7 @@
      nlp_fill = pipeline("fill-mask", model=model, tokenizer=tokenizer)
      results = nlp_fill(text) 
      
-     print(f" {r['sequence']} (prob={r['score']:.4f})") 
+     print(f"{r['sequence']} (prob={r['score']:.4f})") 
 
  
 ### 🔹 خانواده‌ی اصلی BERT برای Mask Prediction
