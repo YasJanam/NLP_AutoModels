@@ -69,3 +69,16 @@ BERT-large: مدل 24 لایه ای
 | **ELECTRA**    | Small / Base / Large       | Replaced Token Detection | آموزش سریع‌تر  |
 | **SpanBERT**   | Base / Large               | ماسک اسپن‌ها             | QA, NER        |
 | **MiniLM**     | کوچک                       | attention-efficient      | real-time apps |
+
+
+### نحوه استنفاده از مدل های MaskedLM برای تسک حدس زدن کلمات حذف شده
+
+     tokenizer = AutoTokenizer.from_pretrained(model_name)
+     model = AutoModelForMaskedLM.from_pretrained(model_name) 
+    
+     nlp_fill = pipeline("fill-mask", model=model, tokenizer=tokenizer)
+     results = nlp_fill(text) 
+     
+     print(f" {r['sequence']} (prob={r['score']:.4f})") 
+
+ 
