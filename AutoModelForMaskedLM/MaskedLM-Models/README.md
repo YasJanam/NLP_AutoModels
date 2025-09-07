@@ -1,4 +1,16 @@
 ## MaskedLM-Models
+
+### 🔹 نحوه استفاده از مدل های MaskedLM برای تسک حدس زدن کلمات حذف شده
+
+     tokenizer = AutoTokenizer.from_pretrained(model_name)
+     model = AutoModelForMaskedLM.from_pretrained(model_name) 
+    
+     nlp_fill = pipeline("fill-mask", model=model, tokenizer=tokenizer)
+     results = nlp_fill(text) 
+     
+     print(f" {r['sequence']} (prob={r['score']:.4f})") 
+
+ 
 ### 🔹 خانواده‌ی اصلی BERT برای Mask Prediction
 #### 1. BERT (Original)
 
@@ -71,14 +83,4 @@ BERT-large: مدل 24 لایه ای
 | **MiniLM**     | کوچک                       | attention-efficient      | real-time apps |
 
 
-### نحوه استفاده از مدل های MaskedLM برای تسک حدس زدن کلمات حذف شده
 
-     tokenizer = AutoTokenizer.from_pretrained(model_name)
-     model = AutoModelForMaskedLM.from_pretrained(model_name) 
-    
-     nlp_fill = pipeline("fill-mask", model=model, tokenizer=tokenizer)
-     results = nlp_fill(text) 
-     
-     print(f" {r['sequence']} (prob={r['score']:.4f})") 
-
- 
