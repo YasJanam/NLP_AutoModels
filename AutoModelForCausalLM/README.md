@@ -1,9 +1,12 @@
 ### **CausalLM-Models** ( مدل های علی)
 این نوع مدل ها بر اساس معماری ترنسفورمر ها ساخته شده اند. این مدل ها برای تسک های زبانی علی طراحی شده اند، یعنی __پیش بینی کلمه بعدی در یک توالی بر اساس کلمات قبلی__
 
-مثالی از یک مدل علی 10 لایه در لینک زیر پیاده سازی شده :
 
-https://github.com/YasJanam/NLP_MODELS_1/tree/main/10_layer_nlp_model_3
+یک مدل علی 10 لایه در این لینک پیاده سازی شده :  https://github.com/YasJanam/NLP_MODELS_1/tree/main/10_layer_nlp_model_3
+
+یک مدل علی بسیار ساده ( مفید و ساده برای یادگیری ) :  https://github.com/YasJanam/NLP_AutoModels/tree/main/AutoModelForCausalLM/TinyCausalLM
+
+معرفی 4 مدل علی : https://github.com/YasJanam/NLP_AutoModels/tree/main/AutoModelForCausalLM/Causal_Models
 
 ---
 #### CausalLM-Models Architecture (معماری مدل های علی)
